@@ -1,0 +1,114 @@
+
+.project-1
+{   
+    margin: 2rem 0rem;
+    width: 78vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.041);
+    color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+    transition: all ease 200ms;
+}
+
+.project-1:hover
+{
+    transform: scale(1.04);
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+    cursor: pointer;
+}
+
+.coverimage
+{   
+    margin-top: 1rem;
+    height: 30rem;
+    width: 40rem;
+    border-radius: 3%;
+    box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+    transition: all ease 200ms;
+}
+
+.coverimage:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+    cursor: pointer;
+}
+
+.formatter
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.desc{
+    font-size: 1.1rem
+}
+
+.description
+{
+    margin-left: 2rem;
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.list-item
+{
+    font-size: 20px;
+}
+@media (max-width: 1200px)
+{
+    .coverimage
+{   
+    margin-top: 1rem;
+    height: 20rem;
+    width: 30rem;
+    border-radius: 3%;
+    box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+    transition: all ease 200ms;
+}
+}
+
+@media (max-width: 1000px)
+{
+    .formatter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.description
+{
+    
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media (max-width: 800px)
+{
+
+    .coverimage
+    {   
+        margin-top: 1rem;
+        height: 15rem;
+        width: 20rem;
+        border-radius: 3%;
+        box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+        transition: all ease 200ms;
+    }
+
+}
